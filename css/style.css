@@ -2,16 +2,33 @@ body {
   margin: 0;
 }
 header {
+  height: 144px;
+  width: 1440px;
+  border: 8px solid black;
   background-color: #fef83e;
-  padding: 15px;
+  color: black;
+}
+
+.logo {
+  width: 289px;
+  height: 138px;
+  flex-shrink: 0;
 }
 header ul {
   float: right;
-  color: black;
+  padding: 30px 25px;
+  flex-shrink: 0;
 }
+
 header li {
   display: inline-block;
-  padding: 0px 5px;
+  padding: 0px 25px;
+  flex-shrink: 0;
+  font-family: Blinker;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 header h1 {
@@ -32,6 +49,24 @@ header p {
   background-color: white;
   text-align: center;
 }
+
+.greenBox {
+  width: 599px;
+  height: 194px;
+  flex-shrink: 0;
+  border: 8px solid black;
+  background-color: #26c83b;
+}
+
+#me {
+  width: 599px;
+  height: 605px;
+  flex-shrink: 0;
+  border: 8px solid black;
+  background: url(<../images/A4E24184-7715-4D7D-80E8-D4A1C85E0F7D_1_105_c\ 1.png>)
+    lightgray 50% / cover no-repeat;
+}
+
 button {
   padding: 15px;
   background-color: black;
@@ -41,15 +76,97 @@ button {
 }
 
 footer {
+  height: 116px;
+  width: 1440px;
+  border: 8px solid black;
   background-color: #fb4cd2;
   padding: 5px;
   color: black;
 }
-footer ul {
+.socialMedia {
+  float: left;
+  padding: 30px 25px;
+  flex-shrink: 0;
   list-style: none;
-  padding-left: 5px;
 }
-footer li {
+.socialMedia li {
   display: inline-block;
-  padding: 0px 7px;
+  padding: 0px 25px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Blinker";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footerLinks {
+  float: right;
+  padding: 30px 25px;
+  flex-shrink: 0;
+  list-style: none;
+}
+.footerLinks li {
+  display: inline-block;
+  padding: 0px 25px;
+  flex-shrink: 0;
+  font-family: "Blinker";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.blinker-thin {
+  font-family: "Blinker", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.blinker-extralight {
+  font-family: "Blinker", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.blinker-light {
+  font-family: "Blinker", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.blinker-regular {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blinker-semibold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.blinker-bold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.blinker-extrabold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.blinker-black {
+  font-family: "Blinker", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.candal-regular {
+  font-family: "Candal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
