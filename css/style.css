@@ -38,16 +38,15 @@ header h1 {
 header p {
   display: inline-block;
 }
-
 .heroImg {
-  padding: 100px 15px;
+  display: inline-block;
 }
 .content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: white;
-  text-align: center;
+  display: inline-flex;
+}
+
+#leftWrapper {
+  display: inline-block;
 }
 
 .greenBox {
@@ -67,6 +66,15 @@ header p {
     lightgray 50% / cover no-repeat;
 }
 
+#rightAside {
+  float: right;
+  background-color: white;
+  color: black;
+  width: 825px;
+  height: 815px;
+  border: 8px solid black;
+}
+
 button {
   padding: 15px;
   background-color: black;
@@ -76,11 +84,11 @@ button {
 }
 
 footer {
+  display: inline-block;
   height: 116px;
   width: 1440px;
   border: 8px solid black;
   background-color: #fb4cd2;
-  padding: 5px;
   color: black;
 }
 .socialMedia {
